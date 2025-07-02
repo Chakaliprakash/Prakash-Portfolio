@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" x-data="{ menuOpen: false }">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prakash Chakali | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e0c1e6f3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-white scroll-smooth">
+
+  <section class="relative h-screen flex items-center justify-center text-center px-4">
+    <div id="particles-js"></div>
+    <div class="animate__animated animate__fadeInUp">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Prakash Chakali</h1>
+      <p class="text-xl md:text-2xl text-gray-300 mb-6">Java Developer | Cybersecurity Student | Gen AI Explorer</p>
+      <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded">Get in Touch</a>
+    </div>
+  </section>
+
+  <section id="about" class="py-16 px-6 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+    <p class="text-gray-300 leading-loose">
+      I’m a passionate and driven CSE student specializing in Cyber Security at Sri Indu College of Engineering and Technology. My core strengths lie in Java, Python, and system-level languages like C/C++. I aspire to be a Middleware Architect and love exploring secure backend systems, Gen AI innovations, and real-world simulations.
+    </p>
+  </section>
+
+  <section id="skills" class="bg-gray-800 py-16 px-6">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Skills</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-white">
+        <div class="bg-gray-700 p-4 rounded shadow hover:scale-105 transition">Java</div>
+        <div class="bg-gray-700 p-4 rounded shadow hover:scale-105 transition">C</div>
+        <div class="bg-gray-700 p-4 rounded shadow hover:scale-105 transition">C++</div>
+        <div class="bg-gray-700 p-4 rounded shadow hover:scale-105 transition">Python</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="py-16 px-6 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-4">Education</h2>
+    <div class="border-l-4 border-blue-500 pl-4">
+      <h3 class="text-xl font-semibold">Sri Indu College of Engineering and Technology</h3>
+      <p class="text-gray-400">B.Tech in Cyber Security (2022 – 2026)</p>
+      <p class="text-gray-300">Currently in 3rd year, learning advanced topics in cybersecurity and backend development.</p>
+    </div>
+  </section>
+
+  <section id="certifications" class="py-16 px-6 max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6">Certifications</h2>
+    <div class="space-y-6">
+      <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold text-white">Generative AI Academy</h3>
+        <p class="text-gray-400">Google Cloud & H2S • <span class="italic">May 28, 2025</span></p>
+        <ul class="list-disc list-inside text-gray-300 mt-2">
+          <li>Vertex AI, Gemini APIs, Imagen, Streamlit</li>
+          <li>Multimodal RAG and Gen AI system design</li>
+        </ul>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold text-white">Cybersecurity Analyst Job Simulation</h3>
+        <p class="text-gray-400">Tata & Forage • <span class="italic">May 1, 2025</span></p>
+        <ul class="list-disc list-inside text-gray-300 mt-2">
+          <li>IAM strategy & assessment</li>
+          <li>Custom IAM integration tasks</li>
+        </ul>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold text-white">Java Programming Internship</h3>
+        <p class="text-gray-400">InfiTech Learn • <span class="italic">Apr–May 2025</span></p>
+        <p class="text-gray-300 mt-2">4-week internship with practical Java development and learning.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-gray-800 py-16 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+      <p class="text-gray-300 mb-4">I'm open to opportunities, collaborations, and projects. Let's connect!</p>
+      <p class="text-lg"><i class="fas fa-envelope mr-2"></i>vickyprakash768@gmail.com</p>
+      <p class="text-lg"><i class="fas fa-phone mr-2"></i>+91 63027 14896</p>
+      <div class="mt-6">
+        <a href="https://www.linkedin.com/in/prakash-chakali-753b82292" class="text-blue-400 hover:text-blue-600 text-xl mr-4"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-gray-500 py-6 text-center text-sm">
+    © 2025 Prakash Chakali. All rights reserved.
+  </footer>
+
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 80 },
+        "size": { "value": 3 },
+        "color": { "value": "#00BFFF" },
+        "line_linked": { "enable": true, "color": "#00BFFF" },
+        "move": { "speed": 2 }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": { "enable": true, "mode": "repulse" }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
