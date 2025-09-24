@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" x-data="{ menuOpen: false }">
 <head>
@@ -160,9 +159,7 @@
         "line_linked": { "enable": true, "color": "#00BFFF" },
         "move": { "speed": 2 }
       },
-      "interactivity": {
-        "events": { "onhover": { "enable": true, "mode": "repulse" } }
-      }
+      "interactivity": { "events": { "onhover": { "enable": true, "mode": "repulse" } } }
     });
 
     // 3D hover effect
@@ -182,7 +179,7 @@
       });
     });
 
-    // Fetch GitHub repositories dynamically
+    // Fetch GitHub repositories dynamically from your GitHub profile
     const githubUsername = 'Chakaliprakash';
     fetch(`https://api.github.com/users/${githubUsername}/repos?sort=updated`)
       .then(res => res.json())
@@ -204,3 +201,4 @@
 
 </body>
 </html>
+
